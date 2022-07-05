@@ -1,0 +1,203 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@700&family=Oswald:wght@200&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* header css starts here */
+header{
+    background-image: url(./images/donation13.jpg);
+    height: 30rem;
+    background-size: cover;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.header_div{
+    padding: 5rem;
+}
+
+h1{
+    font-size: 65px;
+    font-family: 'Inter', sans-serif;
+    margin: 2.5rem;
+}
+
+.header_div p{
+    margin: 2.5rem;
+}
+
+.donate_btn{
+    padding: 0.8rem;
+    background-color: rgb(255, 79, 79);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+}
+/* header css ends here */
+
+
+/* donate_today section starts here */
+.donate_today{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+h2{
+    text-align: center;
+}
+
+.donate_today p{
+    margin: 2.5rem;
+
+}
+
+.text{
+    text-align: center;
+}
+
+.second_div{
+    border: 1px solid red;
+    color: red;
+}
+
+.money_div{
+    display: flex;
+    justify-content: space-around;
+}
+
+.money_div div{
+    width: 5rem;
+    height: 4rem;
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ohter_amount_div{
+    text-align: center;
+    padding: 1.5rem;
+}
+
+.donate_btn{
+    margin: 1rem;
+}
+/* donate_today section ends here */
+
+
+/* our donate plan section starts here */
+.our_donate_plan{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+.first_div{
+    text-align: center;
+}
+
+.first_div p{
+    margin: 2.5rem;
+}
+
+.card_box{
+    display: flex;
+    justify-content: space-around;
+}
+
+.child{
+    width: 30%;
+    padding: 1rem;
+}
+
+i{
+    color: blue;
+    font-size: 2rem;
+    padding: 1rem 0;
+}
+
+.child_1{
+    background-color: rgb(234, 243, 245);
+}
+
+.child_2{
+    background-color: rgb(249, 230, 230);
+}
+
+.child_3{
+    background-color: rgb(255, 242, 208);
+}
+
+.card_box h4{
+    padding: 1rem 0;
+}
+/* our donate plan section ends here */
+
+
+/* Get my updates css starts here */
+.get_my_updates{
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+    background-color: rgb(255, 242, 208);
+}
+
+.first_child{
+    text-align: center;
+    padding: 2rem;
+}
+
+.first_child h2{
+    margin: 1rem;
+}
+
+.second_child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0.5rem;
+}
+
+.second_child input{
+    height: 2rem;
+}
+
+.subscribe_btn{
+    background-color: rgb(255, 79, 79);
+    color: white;
+    border: none;
+    border-radius: 0.2rem;
+    padding: 0.5rem;
+
+}
+/* Get my updates css ends here */
+
+
+/* footer css starts here */
+ footer{
+    height: 10rem;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+    margin-top: 2rem;
+ }
+
+ footer h2{
+    color: rgb(255, 79, 79);
+    padding: 1rem;
+    font-family: 'Lobster Two', cursive;
+ }
+/* footer css ends here */
+
+
+
