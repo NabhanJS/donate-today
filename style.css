@@ -6,7 +6,6 @@
     box-sizing: border-box;
 }
 
-
 /* header css starts here */
 header{
     background-image: url(./images/donation13.jpg);
@@ -56,7 +55,6 @@ h2{
 
 .donate_today p{
     margin: 2.5rem;
-
 }
 
 .text{
@@ -99,6 +97,7 @@ h2{
     margin: 0 auto;
     margin-top: 3rem;
 }
+
 .first_div{
     text-align: center;
 }
@@ -139,6 +138,33 @@ i{
     padding: 1rem 0;
 }
 /* our donate plan section ends here */
+
+
+/* people suffer css starts here */
+.people_suffer{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 4rem;
+    border: 0.1px solid rgb(219, 219, 219);
+}
+
+.people_img{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.people_img div{
+    width: 30%;
+    padding: 0.1rem;
+    margin: 1rem;
+}
+
+.people_img img{
+    width: 100%;
+}
+/* people suffer css ends here */
 
 
 /* Get my updates css starts here */
